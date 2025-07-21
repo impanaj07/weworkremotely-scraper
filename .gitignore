@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+mod/                 # if your virtual environment is named mod
+
+# SQLite database file
+*.sqlite3
+*.db
+
+# Flask environment files
+instance/
+.env
+*.env
+
+# Logs and cache
+*.log
+*.pot
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code and IDE settings
+.vscode/
+.idea/
