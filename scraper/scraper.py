@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import sqlite3
 URL="https://weworkremotely.com/categories/remote-programming-jobs"
-conn=sqlite3.connect("jobs.db")
+conn=sqlite3.connect("../jobs.db")
 c=conn.cursor()
 
 c.execute('''CREATE TABLE IF NOT EXISTS jobs(title TEXT,link TEXT)''')

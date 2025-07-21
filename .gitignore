@@ -28,3 +28,5 @@ Thumbs.db
 # VS Code and IDE settings
 .vscode/
 .idea/
+# Ignore the SQLite database
+jobs.db
